@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.9.0)
+    puma (3.4.0)
+    rack (1.6.4)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 5.9.0)
+  puma (~> 3.4.0)
+  rack (~> 1.6.4)
+  rake (~> 10.5.0)
+
+BUNDLED WITH
+   1.12.5
