@@ -8,7 +8,7 @@ rackup -p PORT_NUM
 
 ### Example Request
 
-##### Ping
+##### Ping (assumes you ran `rackup -p 3333`)
 
 ```
 $ curl -v -X GET 'localhost:3333/ping'; echo
@@ -22,7 +22,7 @@ $ curl -v -X GET 'localhost:3333/ping'; echo
 ```
 
 
-### TODO
+### Todo
 
-* Path parser for env["REQUEST_PATH"]
-* Query string parser for env["QUERY_STRING"]
+* Path parser for `env["REQUEST_PATH"]`
+* Query string parser for `env["QUERY_STRING"]`
